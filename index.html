@@ -2,25 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>To-Do Pad</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="wrapper"> <!-- Wrapper to center and contain all app content -->
-  <div class="header"> <!-- Header contains the title and buttons -->
-    <h1>To Do:</h1>
-    <div class="buttons"> 
-      <button id="addTask">➕</button>
-      <button id="deleteTask">➖</button>
+  <div class="wrapper">
+    <div class="header">
+      <h1>To Do:</h1>
+      <div class="buttons">
+        <button id="addTask">➕</button>
+        <button id="deleteTask">➖</button>
+        <button id="toggleSort" class="sort-toggle">🔃</button>
+      </div>
     </div>
+    <div class="todo-list"></div>
   </div>
-
-  <div class="todo-list"></div> <!-- Dynamic container for task items -->
-</div>
-
-
 
   <script src="script.js"></script>
 </body>
 </html>
+
