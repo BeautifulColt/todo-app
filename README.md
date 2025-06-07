@@ -9,7 +9,8 @@ Helps you track your tasks, set priorities, and manage deadlines — all in one 
 - ✅ Add and remove tasks easily
 - 🔥 Set task priority (High, Medium, Low)
 - 📅 Assign due dates
-- 🗑️ Delete specific tasks with a click
+- ⚙️ Sort tasks by priority and due date
+- 🗑️ Delete specific tasks
 - 🧹 Clean, notebook-style design
 
 ## 📸 Screenshot
@@ -23,23 +24,21 @@ Helps you track your tasks, set priorities, and manage deadlines — all in one 
 3. Enter your task name, select a priority level, and choose a due date.
 4. Check off tasks when completed.
 5. Use the 🗑️ icon to remove any task you don’t need.
+6. Use the toggle button to arrange tasks in order. 
 
-## 🛠️ Tech Stack
-
-- HTML
-- CSS
-- JavaScript
 
 ## 🌱 Future Improvements
 
-- [ ] Sort tasks automatically by priority and due date
+- [ x ] Sort tasks automatically by priority and due date
 - [ ] Add persistence with localStorage or database
-- [ ] Drag-and-drop functionality
+- [ ] filter by complete and incomplete
+- [ ] Task category tags / colour labels
 - [ ] Dark mode toggle
 
-## 🙋‍♀️ Why I Made This
+## Credits
 
-I built this as a practice project while learning full-stack web development. It’s a step toward my goal of working in tech and building helpful, creative tools for people.
+Made with ❤️ by Jenny (BeautifulColt)
+Practice project inspired by learning front-end development through hands-on coding.
 
 ---
 
